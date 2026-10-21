@@ -89,7 +89,7 @@ export default function Contact() {
               textDecoration: 'none',
             }}
           >
-            hello@luckyparekh.com
+            luckyparekh701@gmail.com
           </a>
 
           {/* Social links */}
