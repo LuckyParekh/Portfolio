@@ -47,14 +47,24 @@ const projects: (Project & { live: boolean })[] = [
     },
   },
   {
-    id: 'project-three',
+    id: 'hpys-events',
     number: '§ 03',
-    title: 'PROJECT THREE',
-    description: 'Something new in the works.',
-    tags: ['TBD'],
-    githubUrl: '#',
-    live: false,
-    caseStudy: { problem: '', approach: '', stack: '', outcome: '' },
+    title: 'HPYS EVENTS',
+    description:
+      'Full-stack web app for Hariprabodham Youths Sabha Scarborough to manage and archive bi-weekly gatherings. Paste a YouTube link and it auto-extracts the thumbnail, topic, and date.',
+    tags: ['FastAPI', 'SQLite', 'yt-dlp', 'React', 'Vite', 'Tailwind'],
+    githubUrl: 'https://github.com/LuckyParekh/hpys-events',
+    live: true,
+    caseStudy: {
+      problem:
+        'The sabha runs gatherings every two weeks, and recordings, topics, and speakers were scattered across YouTube links with no easy way to browse or search the archive.',
+      approach:
+        'Built an import flow where pasting a YouTube URL pulls the thumbnail, topic, and date automatically. Added a speaker (Vakta) directory with event history, a topics browser, upcoming and past event views with search, and audio download once an event has ended.',
+      stack:
+        'Python + FastAPI backend with SQLite and yt-dlp for YouTube metadata and audio. React + Vite + Tailwind CSS frontend. No paid APIs required.',
+      outcome:
+        'A searchable archive of past sabhas that the community can use to find talks by speaker or topic, built entirely on free tools.',
+    },
   },
   {
     id: 'project-four',
