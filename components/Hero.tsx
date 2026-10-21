@@ -104,7 +104,7 @@ export default function Hero() {
                 display: 'block',
               }}
             >
-              PAREKH.
+              PAREKH
             </h1>
           </motion.div>
         </div>

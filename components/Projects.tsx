@@ -67,10 +67,10 @@ const projects: (Project & { live: boolean })[] = [
     },
   },
   {
-    id: 'project-four',
+    id: 'Kitchen App',
     number: '§ 04',
     title: 'PROJECT FOUR',
-    description: 'Something new in the works.',
+    description: 'An app which calculates the groceries at your home and tells you what is needed according to the weekly menu. Coming Soon!',
     tags: ['TBD'],
     githubUrl: '#',
     live: false,
